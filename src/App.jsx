@@ -1,4 +1,5 @@
-import ProfileCard from "./Component/ProfileCard"
+import NavBar from "./Component/NavBar"
+
 
 
 
@@ -7,8 +8,8 @@ function App() {
 
   return (
     <>
-    <div className="min-h-screen flex items-center justify-center   bg-[#BEE4D0] min-w-screen">
-      <ProfileCard />
+    <div className="h-screen bg-gradient-to-b from-[#001219] via-[#005f73] to-[#0a9396]">
+     <NavBar/>
     </div>
       
     </>
