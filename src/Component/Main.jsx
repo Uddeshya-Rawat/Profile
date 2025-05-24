@@ -12,6 +12,7 @@ const Main = () => {
       </h1>
       <p className='text-2xl mt-7 text-white'>
         Hi, I'm <span className="text-teal-300 font-semibold">Uddeshya Rawat</span> — a MERN Stack Developer with a passion for building clean, responsive, and accessible user interfaces.
+         I specialize in the <strong>MERN Stack</strong> — a powerful combination of <strong>MongoDB</strong>, <strong>Express.js</strong>, <strong>React.js</strong>, and <strong>Node.js</strong>. It enables me to build fast, responsive, and fully dynamic web applications using end-to-end JavaScript.
       </p>
     </div>
 

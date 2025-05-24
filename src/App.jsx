@@ -1,7 +1,8 @@
-import { use, useRef } from "react"
+import {  useRef } from "react"
 import AboutME from "./Component/AboutME"
 import Main from "./Component/Main"
 import NavBar from "./Component/NavBar"
+import Projects from "./Component/Projects";
 
 
 
@@ -29,6 +30,7 @@ function App() {
         />
         <section ref={homeRef}><Main /></section>
         <section ref={aboutRef}><AboutME /></section>
+         <section ref={projectsRef}><Projects/></section>
       </div>
 
     </>
