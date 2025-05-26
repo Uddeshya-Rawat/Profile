@@ -1,5 +1,6 @@
 import React from 'react'
 import data from '../projectdata'
+import Techs from './Techs'
 
 const Projects = () => {
 
@@ -9,7 +10,7 @@ const Projects = () => {
         <div className='p-6  bg-gradient-to-b from-[#001219] via-[#005f73] to-[#001219] mt-15'>
             <div className='ml-4 mt-12'>
                 <h2 className="text-4xl font-bold mb-2 underline underline-offset-2 poetsen-one-regular text-white ">Projects</h2>
-                <p className='text-xl font-semibold text-white mt-6'>Check out some of my projects </p>
+                <p className='text-xl font-semibold text-white mt-6'>Check out some of my projects :- </p>
             </div>
             <div className="w-full px-4 sm:px-8 py-10">
                 <div className="flex flex-col sm:flex-row sm:flex-wrap justify-center items-center gap-8">
@@ -52,6 +53,7 @@ const Projects = () => {
                         </div>
                     ))}
                 </div>
+                <Techs/>
             </div>
 
         </div>
