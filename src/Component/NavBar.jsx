@@ -1,11 +1,11 @@
-import {  useState } from 'react';
+import { useState } from 'react';
 import { FaBars, FaTimes } from 'react-icons/fa';
 import { NavLink } from 'react-router-dom';
 
-export default function Navbar({ scrollToAbout, scrollToProjects, scrollToContact ,scrollToHome }) {
+export default function Navbar({ scrollToAbout, scrollToProjects, scrollToContact, scrollToHome }) {
   const [menuClicked, setMenuClicked] = useState(false);
 
-  
+
 
   const toggleMenu = () => setMenuClicked(prev => !prev);
 
@@ -17,10 +17,10 @@ export default function Navbar({ scrollToAbout, scrollToProjects, scrollToContac
 
         {/* Desktop Menu */}
         <div className='hidden sm:flex gap-10 text-3xl font-semibold dancing mr-5 mt-4'>
-           <button className='hover:text-teal-700 transition'  onClick={scrollToHome}>Home</button>
-          <button className='hover:text-teal-700 transition'  onClick={scrollToAbout}>About Me</button>
-          <button className='hover:text-teal-700 transition'  onClick={scrollToProjects}>Projects</button>
-           <button className='hover:text-teal-700 transition'  onClick={scrollToContact}>Contact</button>
+          <button className='hover:text-teal-700 transition' onClick={scrollToHome}>Home</button>
+          <button className='hover:text-teal-700 transition' onClick={scrollToAbout}>About Me</button>
+          <button className='hover:text-teal-700 transition' onClick={scrollToProjects}>Projects</button>
+          <button className='hover:text-teal-700 transition' onClick={scrollToContact}>Contact</button>
         </div>
 
         {/* Mobile Toggle Button */}
@@ -32,10 +32,10 @@ export default function Navbar({ scrollToAbout, scrollToProjects, scrollToContac
       {/* Mobile Menu */}
       {menuClicked && (
         <div className='sm:hidden flex flex-col items-center  backdrop-blur-2xl py-6 text-xl font-semibold dancing p-2 mr-5'>
-          <button className='hover:text-teal-700 transition'  onClick={scrollToHome}>Home</button>
-          <button className='hover:text-teal-700 transition'  onClick={scrollToAbout}>About Me</button>
-          <button className='hover:text-teal-700 transition'  onClick={scrollToProjects}>Projects</button>
-          <button className='hover:text-teal-700 transition'  onClick={scrollToContact}>Contact</button>
+          <button className='hover:text-teal-700 transition' onClick={scrollToHome}>Home</button>
+          <button className='hover:text-teal-700 transition' onClick={scrollToAbout}>About Me</button>
+          <button className='hover:text-teal-700 transition' onClick={scrollToProjects}>Projects</button>
+          <button className='hover:text-teal-700 transition' onClick={scrollToContact}>Contact</button>
         </div>
       )}
     </nav>

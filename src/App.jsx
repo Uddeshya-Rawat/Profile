@@ -3,6 +3,7 @@ import AboutME from "./Component/AboutME"
 import Main from "./Component/Main"
 import NavBar from "./Component/NavBar"
 import Projects from "./Component/Projects";
+import Contact from "./Component/Contact";
 
 
 
@@ -31,6 +32,7 @@ function App() {
         <section ref={homeRef}><Main /></section>
         <section ref={aboutRef}><AboutME /></section>
          <section ref={projectsRef}><Projects/></section>
+         <section ref={contactRef} className="bg-[#001219]"><Contact/></section>
       </div>
 
     </>
