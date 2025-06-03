@@ -10,7 +10,7 @@ Welcome to my personal portfolio website! This project showcases my skills, proj
 
 - **Frontend**: React.js, Tailwind CSS, HTML5, JavaScript (ES6+)
 - **Version Control**: Git, GitHub
-- **Deployment**: [Vercel / Netlify / GitHub Pages] *(choose your platform)*
+- **Deployment**: Netlify
 
 ## 📸 Features
 
