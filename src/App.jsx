@@ -31,7 +31,7 @@ function App() {
         />
         <section ref={homeRef}><Main /></section>
         <section ref={aboutRef}><AboutME /></section>
-         <section ref={projectsRef}><Projects/></section>
+         <section ref={projectsRef} className="p-6  bg-gradient-to-b from-[#001219] via-[#005f73] to-[#001219] mt-15"><Projects/></section>
          <section ref={contactRef} className="bg-[#001219]"><Contact/></section>
       </div>
 

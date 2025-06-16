@@ -7,8 +7,8 @@ const Projects = () => {
 
     console.log(data)
     return (
-        <div className='p-6  bg-gradient-to-b from-[#001219] via-[#005f73] to-[#001219] mt-15'>
-            <div className='ml-4 mt-12'>
+        <div className='sm:p-24 p-6'>
+            <div className='ml-4 mt-5'>
                 <h2 className="text-4xl font-bold mb-2 underline underline-offset-2 poetsen-one-regular text-white ">Projects</h2>
                 <p className='text-xl font-semibold text-white mt-6'>Check out some of my projects :- </p>
             </div>

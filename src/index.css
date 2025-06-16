@@ -15,3 +15,21 @@
   font-weight: 400;
   font-style: normal;
 }
+
+.floating {
+      
+      color: white;
+      font-size: 2rem;
+      text-align: center;
+      line-height: 100px;
+      animation: float 3s ease-in-out infinite;
+    }
+
+    @keyframes float {
+      0%, 100% {
+        transform: translateY(1);
+      }
+      50% {
+        transform: translateY(-20px);
+      }
+    }

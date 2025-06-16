@@ -12,7 +12,7 @@ import mongo from '../assets/MongoDB.png'
 
 const Techs = () => {
     return (
-        <div className=" mt-12">
+        <div className=" sm:mt-30 mt-25 ">
             <h2 className="text-4xl font-bold mb-2 underline underline-offset-2 poetsen-one-regular text-white">
                 TechStack
             </h2>
@@ -20,49 +20,49 @@ const Techs = () => {
                 These are the Tech Stack I use most often :-
             </p>
 
-            <div className="grid grid-cols-2  md:grid-cols-3 gap-8 mt-9  p-5 rounded-2xl">
+            <div className="grid grid-cols-2  md:grid-cols-4 gap-8 mt-9  p-5">
 
-                <div className="p-2 flex flex-col items-center  rounded-lg hover:scale-105 transition-transform duration-300  shadow-lg shadow-blue-300">
-                    <img src={react} alt="React Logo" className=" w-24 h-24  rounded-2xl" />
-                    <h3 className="text-white mt-2">React.JS</h3>
+                <a href="https://react.dev/" target="blank"><div className="floating flex flex-col  justify-center text-center items-center sm:hover:shadow-2xl sm:hover:shadow-white sm:hover:rounded-2xl">
+                    <img src={react} alt="React Logo" className=" w-30 h-24  rounded-2xl mt-2" />
+                    <h3 className="text-white mt-1 text-2xl">React.JS</h3>
                 </div>
-
-                <div className="p-4 flex flex-col items-center  rounded-lg hover:scale-105 transition-transform duration-300 shadow-lg shadow-yellow-400">
+</a>
+             <a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript" target="blank">   <div className="floating flex flex-col  justify-center text-center items-center sm:hover:shadow-2xl sm:hover:shadow-white sm:hover:rounded-2xl">
                     <img src={javascript} alt="JavaScript Logo" className=" w-30  h-24  rounded-2xl" />
-                    <h3 className="text-white mt-2">JavaScript</h3>
-                </div>
-                <div className="p-4 flex flex-col items-center  rounded-lg hover:scale-105 transition-transform duration-300 shadow-lg shadow-blue-500">
+                    <h3 className="text-white mt-1 text-2xl">JavaScript</h3>
+                </div></a>
+                <a href="https://tailwindcss.com/docs/installation/using-vite" target="blank"><div className="floating flex flex-col  justify-center text-center items-center sm:hover:shadow-2xl sm:hover:shadow-white sm:hover:rounded-2xl">
                     <img src={tailwind} alt="JavaScript Logo" className=" w-30  h-24  rounded-2xl" />
-                    <h3 className="text-white mt-2">Tailwind CSS</h3>
-                </div>
-                <div className="p-4 flex flex-col items-center  rounded-lg hover:scale-105 transition-transform duration-300 shadow-lg shadow-orange-500">
+                    <h3 className="text-white mt-1 text-2xl">Tailwind CSS</h3>
+                </div></a>
+                <a href="https://developer.mozilla.org/en-US/docs/Web/HTML" target="blank"><div className="floating flex flex-col  justify-center text-center items-center sm:hover:shadow-2xl sm:hover:shadow-white sm:hover:rounded-2xl">
                     <img src={html} alt="JavaScript Logo" className=" w-30  h-24  rounded-2xl" />
-                    <h3 className="text-white mt-2">HTML</h3>
-                </div>
-                <div className="p-4 flex flex-col items-center  rounded-lg hover:scale-105 transition-transform duration-300 shadow-lg shadow-blue-700">
+                    <h3 className="text-white mt-1 text-2xl">HTML</h3>
+                </div></a>
+                <a href="https://developer.mozilla.org/en-US/docs/Web/CSS" target="blank"><div className="floating flex flex-col  justify-center text-center items-center sm:hover:shadow-2xl sm:hover:shadow-white sm:hover:rounded-2xl">
                     <img src={css} alt="JavaScript Logo" className=" w-30  h-24  rounded-2xl" />
-                    <h3 className="text-white mt-2">Cascading Style Sheet</h3>
-                </div>
-                <div className="p-4 flex flex-col items-center  rounded-lg hover:scale-105 transition-transform duration-300 shadow-lg shadow-violet-500">
+                    <h3 className="text-white mt-1 text-2xl">Cascading Style Sheet</h3>
+                </div></a>
+                <a href="https://redux-toolkit.js.org/" target="blank"><div className="floating flex flex-col  justify-center text-center items-center sm:hover:shadow-2xl sm:hover:shadow-white sm:hover:rounded-2xl">
                     <img src={redux} alt="JavaScript Logo" className=" w-30  h-24  rounded-2xl" />
-                    <h3 className="text-white mt-2">Redux Toolkit</h3>
-                </div>
-                <div className="p-4 flex flex-col items-center  rounded-lg hover:scale-105 transition-transform duration-300 shadow-lg shadow-white">
+                    <h3 className="text-white mt-1 text-2xl">Redux Toolkit</h3>
+                </div></a>
+                <a href="https://reactrouter.com/" target="blank"><div className="floating flex flex-col  justify-center text-center items-center sm:hover:shadow-2xl sm:hover:shadow-white sm:hover:rounded-2xl">
                     <img src={router} alt="JavaScript Logo" className=" w-30  h-24  rounded-2xl" />
-                    <h3 className="text-white mt-2">React-Router</h3>
-                </div>
-                <div className="p-4 flex flex-col items-center  rounded-lg hover:scale-105 transition-transform duration-300 shadow-lg shadow-green-500">
+                    <h3 className="text-white mt-1 text-2xl">React-Router</h3>
+                </div></a>
+                <a href="https://nodejs.org/docs/latest/api/" target="blank"> <div className="floating flex flex-col  justify-center text-center items-center sm:hover:shadow-2xl sm:hover:shadow-white sm:hover:rounded-2xl">
                     <img src={node} alt="JavaScript Logo" className=" w-30  h-24  rounded-2xl" />
-                    <h3 className="text-white mt-2">Node.js</h3>
-                </div>
-                <div className="p-4 flex flex-col items-center  rounded-lg hover:scale-105 transition-transform duration-300 shadow-lg shadow-white">
+                    <h3 className="text-white mt-1 text-2xl">Node.js</h3>
+                </div></a>
+                <a href="https://expressjs.com/" target="blank"><div className="floating flex flex-col  justify-center text-center items-center sm:hover:shadow-2xl sm:hover:shadow-white sm:hover:rounded-2xl">
                     <img src={express} alt="JavaScript Logo" className=" w-30  h-24  rounded-2xl" />
-                    <h3 className="text-white mt-2">Express.JS</h3>
-                </div>
-                <div className="p-4 flex flex-col items-center  rounded-lg hover:scale-105 transition-transform duration-300 shadow-lg shadow-green-700">
-                    <img src={mongo} alt="JavaScript Logo" className=" w-30  h-24  rounded-2xl" />
-                    <h3 className="text-white mt-2">Mongo DB</h3>
-                </div>
+                    <h3 className="text-white mt-1 text-2xl">Express.JS</h3>
+                </div></a>
+                <a href="https://www.mongodb.com/docs/" target='blank'><div className="floating flex flex-col  justify-center text-center items-center sm:hover:shadow-2xl sm:hover:shadow-white sm:hover:rounded-xl">
+                    <img src={mongo} alt="JavaScript Logo" className=" w-30  h-24  rounded-2xl " />
+                    <h3 className="text-white mt-1 text-2xl">Mongo DB</h3>
+                </div></a>
             </div>
         </div>
 
