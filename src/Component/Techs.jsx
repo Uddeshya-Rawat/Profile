@@ -27,7 +27,7 @@ const Techs = () => {
                     <h3 className="text-white mt-1 text-2xl">React.JS</h3>
                 </div>
 </a>
-             <a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript" target="blank">   <div className="floating flex flex-col  justify-center text-center items-center sm:hover:shadow-2xl sm:hover:shadow-white sm:hover:rounded-2xl">
+             <a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript" target="blank">   <div className="floating2 flex flex-col  justify-center text-center items-center sm:hover:shadow-2xl sm:hover:shadow-white sm:hover:rounded-2xl">
                     <img src={javascript} alt="JavaScript Logo" className=" w-30  h-24  rounded-2xl" />
                     <h3 className="text-white mt-1 text-2xl">JavaScript</h3>
                 </div></a>
@@ -35,15 +35,15 @@ const Techs = () => {
                     <img src={tailwind} alt="JavaScript Logo" className=" w-30  h-24  rounded-2xl" />
                     <h3 className="text-white mt-1 text-2xl">Tailwind CSS</h3>
                 </div></a>
-                <a href="https://developer.mozilla.org/en-US/docs/Web/HTML" target="blank"><div className="floating flex flex-col  justify-center text-center items-center sm:hover:shadow-2xl sm:hover:shadow-white sm:hover:rounded-2xl">
+                <a href="https://developer.mozilla.org/en-US/docs/Web/HTML" target="blank"><div className="floating2 flex flex-col  justify-center text-center items-center sm:hover:shadow-2xl sm:hover:shadow-white sm:hover:rounded-2xl">
                     <img src={html} alt="JavaScript Logo" className=" w-30  h-24  rounded-2xl" />
                     <h3 className="text-white mt-1 text-2xl">HTML</h3>
                 </div></a>
-                <a href="https://developer.mozilla.org/en-US/docs/Web/CSS" target="blank"><div className="floating flex flex-col  justify-center text-center items-center sm:hover:shadow-2xl sm:hover:shadow-white sm:hover:rounded-2xl">
+                <a href="https://developer.mozilla.org/en-US/docs/Web/CSS" target="blank"><div className="floating2 flex flex-col  justify-center text-center items-center sm:hover:shadow-2xl sm:hover:shadow-white sm:hover:rounded-2xl">
                     <img src={css} alt="JavaScript Logo" className=" w-30  h-24  rounded-2xl" />
                     <h3 className="text-white mt-1 text-2xl">Cascading Style Sheet</h3>
                 </div></a>
-                <a href="https://redux-toolkit.js.org/" target="blank"><div className="floating flex flex-col  justify-center text-center items-center sm:hover:shadow-2xl sm:hover:shadow-white sm:hover:rounded-2xl">
+                <a href="https://redux-toolkit.js.org/" target="blank"><div className="floating2 flex flex-col  justify-center text-center items-center sm:hover:shadow-2xl sm:hover:shadow-white sm:hover:rounded-2xl">
                     <img src={redux} alt="JavaScript Logo" className=" w-30  h-24  rounded-2xl" />
                     <h3 className="text-white mt-1 text-2xl">Redux Toolkit</h3>
                 </div></a>
@@ -51,7 +51,7 @@ const Techs = () => {
                     <img src={router} alt="JavaScript Logo" className=" w-30  h-24  rounded-2xl" />
                     <h3 className="text-white mt-1 text-2xl">React-Router</h3>
                 </div></a>
-                <a href="https://nodejs.org/docs/latest/api/" target="blank"> <div className="floating flex flex-col  justify-center text-center items-center sm:hover:shadow-2xl sm:hover:shadow-white sm:hover:rounded-2xl">
+                <a href="https://nodejs.org/docs/latest/api/" target="blank"> <div className="floating2 flex flex-col  justify-center text-center items-center sm:hover:shadow-2xl sm:hover:shadow-white sm:hover:rounded-2xl">
                     <img src={node} alt="JavaScript Logo" className=" w-30  h-24  rounded-2xl" />
                     <h3 className="text-white mt-1 text-2xl">Node.js</h3>
                 </div></a>
@@ -59,7 +59,7 @@ const Techs = () => {
                     <img src={express} alt="JavaScript Logo" className=" w-30  h-24  rounded-2xl" />
                     <h3 className="text-white mt-1 text-2xl">Express.JS</h3>
                 </div></a>
-                <a href="https://www.mongodb.com/docs/" target='blank'><div className="floating flex flex-col  justify-center text-center items-center sm:hover:shadow-2xl sm:hover:shadow-white sm:hover:rounded-xl">
+                <a href="https://www.mongodb.com/docs/" target='blank'><div className="floating2 flex flex-col  justify-center text-center items-center sm:hover:shadow-2xl sm:hover:shadow-white sm:hover:rounded-xl">
                     <img src={mongo} alt="JavaScript Logo" className=" w-30  h-24  rounded-2xl " />
                     <h3 className="text-white mt-1 text-2xl">Mongo DB</h3>
                 </div></a>
