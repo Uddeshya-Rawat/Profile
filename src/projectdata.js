@@ -28,7 +28,7 @@ const data = [
     {
         title: "Car Rental Website",
         github: "https://github.com/Uddeshya-Rawat/Car-rental/tree/master/Client",
-        live: "dreamy-pastelito-c08a2d.netlify.app",
+        live: "https://dreamy-pastelito-c08a2d.netlify.app",
         img: `${rental}`
 
     }
